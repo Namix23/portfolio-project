@@ -9,3 +9,20 @@ h1 {
     rgba(89, 97, 223, 1) 88.7%
   );
 }
+
+.navbar-nav {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.navbar-nav li {
+  display: inline-block;
+}
+
+a.nav-link,
+.dropdown-item {
+  font-family: "Macondo", cursive;
+  font-size: 30px;
+  font-weight: 800;
+}
