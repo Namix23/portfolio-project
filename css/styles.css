@@ -1,3 +1,8 @@
+:root {
+  --primary-font: "Macondo", cursive;
+  --secondary-font: "Henny Penny", cursive;
+}
+
 body {
   background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
 }
