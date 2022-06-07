@@ -43,7 +43,7 @@ a.nav-link,
     rgba(245, 116, 185, 1) 14.7%,
     rgba(89, 97, 223, 1) 88.7%
   );
-  padding: 15rem 0;
+  padding: 200px 0;
 }
 
 .navbar-brand {
@@ -53,4 +53,8 @@ a.nav-link,
 
 .navbar-nav {
   margin: 0 auto;
+}
+
+.scroll-pointer {
+  font-size: 50px;
 }
