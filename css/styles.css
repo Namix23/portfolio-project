@@ -22,6 +22,7 @@ h2 {
   font-family: var(--primary-font);
   font-size: 55px;
   font-weight: 600;
+  margin-top: 20px;
 }
 
 nav.navbar {
@@ -59,7 +60,7 @@ a.nav-link,
 }
 
 .hello-introductions {
-  width: 370px;
+  width: 300px;
   display: block;
   margin: 0 auto;
   border-radius: 285px 245px 215px 250px;
