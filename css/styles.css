@@ -1,7 +1,7 @@
 :root {
   --primary-font: "Didact Gothic", sans-serif;
   --secondary-font: "Henny Penny", cursive;
-  --default-color: #000;
+  --default-color: rgb(251 233 255);
 }
 
 h1,
@@ -52,7 +52,7 @@ a.nav-link,
     rgba(245, 116, 185, 1) 14.7%,
     rgba(89, 97, 223, 1) 88.7%
   );
-  padding: 115px 0;
+  padding: 85px 0;
 }
 
 .navbar-brand {
