@@ -1,6 +1,7 @@
 :root {
   --primary-font: "Didact Gothic", sans-serif;
   --secondary-font: "Henny Penny", cursive;
+  --default-color: #000;
 }
 
 h1,
@@ -10,15 +11,23 @@ h2,
 }
 
 h1 {
+  color: var(--default-color);
   font-family: var(--secondary-font);
   font-size: 100px;
   font-weight: 600;
 }
 
 h2 {
+  color: var(--default-color);
   font-family: var(--primary-font);
   font-size: 55px;
   font-weight: 600;
+}
+
+.hello-introductions {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
 }
 
 nav.navbar {
@@ -43,7 +52,7 @@ a.nav-link,
     rgba(245, 116, 185, 1) 14.7%,
     rgba(89, 97, 223, 1) 88.7%
   );
-  padding: 150px 0;
+  padding: 115px 0;
 }
 
 .navbar-brand {
