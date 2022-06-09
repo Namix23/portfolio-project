@@ -4,27 +4,6 @@
   --default-color: rgb(251 233 255);
 }
 
-h1,
-h2,
-.navbar-nav {
-  text-align: center;
-}
-
-h1 {
-  color: var(--default-color);
-  font-family: var(--secondary-font);
-  font-size: 95px;
-  font-weight: 600;
-}
-
-h2 {
-  color: var(--default-color);
-  font-family: var(--primary-font);
-  font-size: 55px;
-  font-weight: 600;
-  margin-top: 20px;
-}
-
 nav.navbar {
   background: rgba(129, 46, 148, 0.178);
 }
@@ -32,22 +11,44 @@ nav.navbar {
 a.nav-link,
 .dropdown-item,
 .navbar-brand {
-  color: #ffffff;
+  color: rgb(251 233 255);
   font-family: var(--primary-font);
   font-size: 20px;
   font-weight: 600;
 }
 
+.navbar-nav {
+  text-align: center;
+}
+
+.hero h1 {
+  color: var(--default-color);
+  font-family: var(--secondary-font);
+  font-size: 80px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.hero h2 {
+  color: var(--default-color);
+  font-family: var(--primary-font);
+  font-size: 45px;
+  font-weight: normal;
+  padding-top: 20px;
+}
+
 .dropdown-menu {
   background: rgba(129, 46, 148, 0.178);
 }
+
 .hero {
   background: linear-gradient(
     64.5deg,
     rgba(245, 116, 185, 1) 14.7%,
     rgba(89, 97, 223, 1) 88.7%
   );
-  padding: 85px 0px 40px 0;
+  padding: 100px 20px;
+  text-align: center;
 }
 
 .navbar-brand {
@@ -60,11 +61,11 @@ a.nav-link,
 }
 
 .hello-introductions {
-  width: 300px;
+  background: #000;
+  border-radius: 285px 245px 215px 250px;
   display: block;
   margin: 0 auto;
-  border-radius: 285px 245px 215px 250px;
-  background: #000;
+  width: 300px;
 }
 
 .scroll-pointer {
