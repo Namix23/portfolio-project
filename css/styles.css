@@ -5,7 +5,7 @@
 }
 
 nav.navbar {
-  background: rgba(129, 46, 148, 0.178);
+  background: rgb(129 46 148 / 10%);
 }
 
 a.nav-link,
@@ -35,6 +35,16 @@ a.nav-link,
   font-size: 45px;
   font-weight: normal;
   padding-top: 20px;
+}
+
+h1 {
+  font-family: var(--primary-font);
+  font-size: 30px;
+}
+
+p {
+  font-family: var(--primary-font);
+  font-size: 30px;
 }
 
 .dropdown-menu {
