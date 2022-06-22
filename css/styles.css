@@ -130,8 +130,12 @@ p {
   border-radius: 50px;
 }
 
-@media (max-width: 343px){
- .works img{
-
- }
+@media (min-width: 343px) {
+  .works h2 {
+    font-size: 30px;
+    line-height: 1;
+  }
+  .works p {
+    font-size: 25px;
+  }
 }
