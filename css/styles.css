@@ -1,8 +1,12 @@
 :root {
   --primary-font: "Didact Gothic", sans-serif;
   --secondary-font: "Henny Penny", cursive;
-  --hero-color: rgb(251 233 255);
+  --second-color: rgb(251 233 255);
   --default-color: #0a0d27;
+}
+
+body {
+  background: rgb(145 74 52 / 41%);
 }
 
 nav.navbar {
@@ -12,7 +16,7 @@ nav.navbar {
 a.nav-link,
 .dropdown-item,
 .navbar-brand {
-  color: var(--hero-color);
+  color: var(--second-color);
   font-family: var(--primary-font);
   font-size: 20px;
   font-weight: 600;
@@ -33,7 +37,7 @@ p {
 }
 
 .hero h1 {
-  color: var(--hero-color);
+  color: var(--second-color);
   font-family: var(--secondary-font);
   font-size: 80px;
   font-weight: 600;
@@ -41,7 +45,7 @@ p {
 }
 
 .hero h2 {
-  color: var(--hero-color);
+  color: var(--second-color);
   font-family: var(--primary-font);
   font-size: 45px;
   font-weight: normal;
@@ -81,6 +85,7 @@ p {
 }
 
 .bio {
+  color: var(--second-color);
   font-size: 35px;
   font-weight: bold;
 }
@@ -112,10 +117,12 @@ p {
 }
 
 .work-title {
+  color: var(--second-color);
   font-size: 45px;
 }
 
 .work-description {
+  color: var(--second-color);
   font-size: 25px;
 }
 
