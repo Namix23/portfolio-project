@@ -27,6 +27,15 @@ h1 {
   font-size: 40px;
 }
 
+ul {
+  display: inline-flex;
+}
+
+li {
+  font-size: 25px;
+  list-style: none;
+}
+
 p {
   font-family: var(--primary-font);
   color: var(--default-color);
@@ -108,11 +117,6 @@ p {
 .programming-skills li::before {
   content: "🞍";
   margin: 5px;
-}
-
-li {
-  font-size: 25px;
-  list-style: none;
 }
 
 .skills-level h2,
