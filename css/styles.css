@@ -27,10 +27,6 @@ h1 {
   font-size: 40px;
 }
 
-ul {
-  display: inline-flex;
-}
-
 li {
   font-size: 25px;
   list-style: none;
@@ -114,8 +110,11 @@ p {
   padding: 30px 30px 0;
 }
 
-.programming-skills li::before {
+.programming-skills li::before,
+.design-skills li::before,
+.art-skills li::before {
   content: "🞍";
+  color: rgb(56 34 56);
   margin: 5px;
 }
 
