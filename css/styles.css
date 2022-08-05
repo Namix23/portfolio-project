@@ -128,6 +128,11 @@ p {
   margin: 5px;
 }
 
+.art-skills {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(150px, 10px));
+}
+
 .skills-level h2,
 .skills-level h3 {
   color: rgb(94 141 78);
