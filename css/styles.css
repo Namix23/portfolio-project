@@ -6,7 +6,7 @@
 }
 
 body {
-  background: linear-gradient(#fad9a1, #f9f9c5, #d9f8c4);
+  background: rgb(56 34 56);
 }
 
 nav.navbar {
@@ -43,6 +43,11 @@ p {
 
 .navbar-nav {
   text-align: center;
+}
+
+.logo {
+  max-height: 35px;
+  max-width: 35px;
 }
 
 .hero h1 {
