@@ -6,7 +6,7 @@
 }
 
 body {
-  background: rgb(56 34 56);
+  background: linear-gradient(#fad9a1, #f9f9c5, #d9f8c4);
 }
 
 nav.navbar {
