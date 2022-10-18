@@ -124,7 +124,7 @@ p {
   );
   border-radius: 50px;
   line-height: 1.5;
-  padding: 30px 30px 0;
+  padding: 30px 30px 0px;
 }
 
 .programming-skills,
@@ -173,7 +173,6 @@ p {
     rgb(255, 168, 169) 10%,
     rgb(252, 255, 0) 100%
   );
-  padding: 30px 0;
   border-radius: 50px;
 }
 
