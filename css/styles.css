@@ -22,8 +22,8 @@ a.nav-link,
   font-weight: 600;
 }
 
-ul.dropdown-menu {
-  left: 28%;
+.dropdown-menu {
+  text-align: center;
 }
 
 span.fa-folder-closed {
