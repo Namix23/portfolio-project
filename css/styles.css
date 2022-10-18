@@ -22,10 +22,6 @@ a.nav-link,
   font-weight: 600;
 }
 
-.dropdown-menu {
-  text-align: center;
-}
-
 span.fa-folder-closed {
   color: var(--second-color);
 }
@@ -56,6 +52,14 @@ p {
 .logo {
   padding-left: 5px;
   max-width: 40px;
+}
+
+.dropdown-menu {
+  text-align: center;
+}
+
+.dropdown-menu[data-bs-popper] {
+  left: -38%;
 }
 
 .hero h1 {
