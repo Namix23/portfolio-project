@@ -22,6 +22,10 @@ a.nav-link,
   font-weight: 600;
 }
 
+ul.dropdown-menu {
+  left: 28%;
+}
+
 span.fa-folder-closed {
   color: var(--second-color);
 }
