@@ -62,6 +62,7 @@ p {
   font-family: var(--secondary-font);
   font-size: 80px;
   font-weight: 600;
+  padding-bottom: 25px;
 }
 
 .hero h2 {
