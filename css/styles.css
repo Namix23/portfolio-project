@@ -45,10 +45,6 @@ p {
   color: var(--default-color);
 }
 
-.navbar-nav {
-  text-align: center;
-}
-
 .logo {
   max-width: 40px;
 }
