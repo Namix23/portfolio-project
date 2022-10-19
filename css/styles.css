@@ -62,7 +62,6 @@ p {
   font-family: var(--secondary-font);
   font-size: 80px;
   font-weight: 600;
-  padding: 15px;
 }
 
 .hero h2 {
@@ -81,7 +80,6 @@ p {
   );
   border-radius: 0 0 45px 45px;
   padding: 100px 20px;
-  text-align: center;
 }
 
 .navbar-brand {
