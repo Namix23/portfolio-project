@@ -80,6 +80,7 @@ p {
   );
   border-radius: 0 0 45px 45px;
   padding: 100px 20px;
+  text-align: center;
 }
 
 .navbar-brand {
