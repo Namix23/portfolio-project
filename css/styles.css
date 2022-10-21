@@ -6,6 +6,10 @@
   --default-color: #0a0d27;
 }
 
+div.navbar-collapse {
+  padding-right: 40px;
+}
+
 nav.navbar,
 ul.dropdown-menu,
 .dropdown-item,
