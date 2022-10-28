@@ -128,7 +128,8 @@ p {
 }
 
 .programming-skills,
-.design-skills {
+.design-skills,
+.art-skills {
   display: inline-flex;
 }
 
@@ -150,6 +151,7 @@ p {
 .skills-level h3 {
   color: rgb(94 141 78);
   font-weight: 700;
+  font-size: 30px;
 }
 
 .skills-level p {
