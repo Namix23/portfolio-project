@@ -125,7 +125,6 @@ p {
   );
   border-radius: 50px;
   line-height: 1.5;
-  padding-top: 15px;
 }
 
 .programming-skills,
@@ -157,6 +156,10 @@ p {
 .skills-level p {
   font-weight: normal;
   font-size: 30px;
+}
+
+.skills-level {
+  padding-top: 15px;
 }
 
 .work-title {
