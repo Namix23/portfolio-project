@@ -31,9 +31,7 @@ span.fa-folder-closed {
   color: var(--second-color);
 }
 
-div .row {
-  padding-top: 15px;
-}
+
 
 h1 {
   font-family: var(--primary-font);
@@ -129,6 +127,7 @@ p {
   );
   border-radius: 50px;
   line-height: 1.5;
+  padding-top: 15px;
 }
 
 .programming-skills,
