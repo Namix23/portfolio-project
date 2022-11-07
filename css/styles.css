@@ -147,7 +147,7 @@ div .col {
 .design-skills li::before,
 .art-skills li::before {
   content: "🞍";
-  color: var(--default-color)
+  color: var(--default-color);
   margin: 5px;
 }
 
