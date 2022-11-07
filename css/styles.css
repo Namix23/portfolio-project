@@ -82,6 +82,37 @@ div .col {
   padding-top: 20px;
 }
 
+.programming-skills li::before,
+.design-skills li::before,
+.art-skills li::before {
+  content: "🞍";
+  color: var(--default-color);
+  margin: 5px;
+}
+
+.skills-level h2,
+.skills-level h3 {
+  color: rgb(88, 142, 70);
+  font-weight: 700;
+}
+
+.skills-level p {
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.project-description img {
+  border-radius: 40px;
+  padding: 10px 10px;
+  width: 500px;
+}
+
+.languages li::before {
+  content: "|";
+  color: var(--default-color);
+  margin: 5px;
+}
+
 .hero {
   background: linear-gradient(
     64.5deg,
@@ -133,7 +164,8 @@ div .col {
 
 .programming-skills,
 .design-skills,
-.art-skills {
+.art-skills,
+.project-description {
   display: inline-flex;
 }
 
@@ -141,35 +173,6 @@ div .col {
   display: grid;
   grid-template-columns: repeat(3, minmax(190px, 0px));
   text-align: left;
-}
-
-.programming-skills li::before,
-.design-skills li::before,
-.art-skills li::before {
-  content: "🞍";
-  color: var(--default-color);
-  margin: 5px;
-}
-
-.skills-level h2,
-.skills-level h3 {
-  color: rgb(88, 142, 70);
-  font-weight: 700;
-}
-
-.skills-level p {
-  font-weight: normal;
-  font-size: 30px;
-}
-
-.work-title {
-  color: var(--second-color);
-  font-size: 45px;
-}
-
-.work-description {
-  color: var(--second-color);
-  font-size: 25px;
 }
 
 .works {
@@ -181,8 +184,12 @@ div .col {
   border-radius: 50px;
 }
 
-.project-description img {
-  border-radius: 40px;
-  padding: 10px 10px;
-  width: 500px;
+.work-title {
+  color: var(--second-color);
+  font-size: 45px;
+}
+
+.work-description {
+  color: var(--second-color);
+  font-size: 25px;
 }
