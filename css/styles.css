@@ -138,18 +138,18 @@ div .col {
   display: inline-flex;
 }
 
+.art-skills {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(190px, 0px));
+  text-align: left;
+}
+
 .programming-skills li::before,
 .design-skills li::before,
 .art-skills li::before {
   content: "🞍";
   color: rgb(56 34 56);
   margin: 5px;
-}
-
-.art-skills {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(190px, 0px));
-  text-align: left;
 }
 
 .skills-level h2,
