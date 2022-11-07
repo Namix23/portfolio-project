@@ -50,6 +50,10 @@ p {
   color: var(--default-color);
 }
 
+div .col {
+  padding-top: 15px;
+}
+
 .logo {
   max-width: 40px;
 }
