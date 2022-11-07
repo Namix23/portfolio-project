@@ -52,7 +52,7 @@ p {
 
 div .col {
   padding-top: 15px;
-  border: 2px solid var(--background-color);
+  border: 1.5px solid var(--background-color);
 }
 
 .logo {
