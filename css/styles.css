@@ -107,6 +107,10 @@ div .col {
   width: 500px;
 }
 
+.project-description h2 {
+  color: rgb(169 78 39);
+}
+
 .languages li::before {
   content: "|";
   color: var(--default-color);
