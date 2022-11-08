@@ -208,6 +208,12 @@ div .col {
   }
 }
 
+@media (max-width: 1140px) {
+  .bio {
+    font-size: 30px;
+  }
+}
+
 @media (max-width: 1112px) {
   .art-skills {
     padding-left: 8px;
