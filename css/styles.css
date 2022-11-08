@@ -247,3 +247,22 @@ div .col {
     padding: 0px 77px;
   }
 }
+
+@media (max-width: 881px) {
+  .bio {
+    padding: 0px 55px;
+  }
+}
+
+@media (max-width: 831px) {
+  .hero h2 {
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+}
+
+@media (max-width: 817px) {
+  .art-skills {
+    padding-left: 120px;
+  }
+}
