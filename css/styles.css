@@ -219,3 +219,12 @@ div .col {
     padding-left: 8px;
   }
 }
+
+@media (max-width: 991px) {
+  .art-skills {
+    padding-left: 25px;
+  }
+  .bio {
+    font-size: 25px;
+  }
+}
