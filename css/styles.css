@@ -196,5 +196,7 @@ div .col {
 
 @media (max-width: 1229px) {
   .art-skills {
+    display: inline-flex;
+    flex-wrap: wrap;
   }
 }
