@@ -193,3 +193,8 @@ div .col {
   color: var(--second-color);
   font-size: 25px;
 }
+
+@media (max-width: 1229px) {
+  .art-skills {
+  }
+}
