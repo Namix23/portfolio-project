@@ -201,3 +201,15 @@ div .col {
     padding-left: 25px;
   }
 }
+
+@media (max-width: 1171px) {
+  .art-skills {
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 1112px) {
+  .art-skills {
+    padding-left: 8px;
+  }
+}
