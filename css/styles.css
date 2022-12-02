@@ -148,13 +148,18 @@ div .col {
   margin: 0 auto;
 }
 
-.hello-introductions,
-.about-introductions {
+.hello-introductions {
   background: #000;
   border-radius: 285px 245px 215px 250px;
   display: block;
   margin: 0 auto;
   width: 300px;
+}
+
+.about-introductions {
+  background: #000;
+  margin: 0 auto;
+  width: 500px;
 }
 
 .bio {
