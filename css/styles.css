@@ -165,6 +165,13 @@ div .about-me {
   background: var(--default-color);
   padding: 190px 110px;
 }
+.about-section {
+  padding-top: 120px;
+}
+
+.about-section p {
+  padding: 85px;
+}
 
 .bio {
   color: var(--second-color);
