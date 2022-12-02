@@ -161,8 +161,9 @@ div .col {
   width: 500px;
 }
 
-.about-me {
+div .about-me {
   background: var(--default-color);
+  padding: 200px 105px;
 }
 
 .bio {
