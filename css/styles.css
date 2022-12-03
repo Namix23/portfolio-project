@@ -172,6 +172,7 @@ div .about-me {
 .about-section p {
   padding: 85px;
   font-family: var(--primary-font);
+  font-weight: 600;
 }
 
 .bio {
