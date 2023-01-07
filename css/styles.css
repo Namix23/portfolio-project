@@ -227,6 +227,9 @@ div .about-me {
   font-size: 25px;
 }
 
+div .search-input {
+}
+
 @media (max-width: 1229px) {
   .art-skills {
     display: inline-flex;
