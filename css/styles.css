@@ -228,7 +228,7 @@ div .about-me {
 }
 
 div .projects {
-  padding: 10px 21px;
+  padding-top: 135px;
 }
 
 @media (max-width: 1229px) {
