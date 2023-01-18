@@ -227,7 +227,8 @@ div .about-me {
   font-size: 25px;
 }
 
-div .search-input {
+form input .search-input {
+  padding: 10px 21px;
 }
 
 @media (max-width: 1229px) {
