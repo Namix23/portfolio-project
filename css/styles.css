@@ -232,8 +232,8 @@ div .projects {
 }
 
 form .search-input {
-  border-radius: 15px;
-  width: 345px;
+  border-radius: 10px;
+  width: 335px;
   border: none;
   background: var(--second-color);
   font-family: var(--primary-font);
