@@ -233,6 +233,7 @@ div .projects {
 
 form .search-input {
   border-radius: 15px;
+  width: 345px;
 }
 
 @media (max-width: 1229px) {
