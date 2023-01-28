@@ -242,6 +242,9 @@ form .search-input {
   color: var(--default-color);
 }
 
+form .search-btn {
+}
+
 @media (max-width: 1229px) {
   .art-skills {
     display: inline-flex;
