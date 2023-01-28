@@ -239,6 +239,7 @@ form .search-input {
   background: var(--second-color);
   font-family: var(--primary-font);
   padding: 0px 10px;
+  color: var(--default-color);
 }
 
 @media (max-width: 1229px) {
