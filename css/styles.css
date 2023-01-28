@@ -243,11 +243,7 @@ form .search-input {
 }
 
 form .search-btn {
-  background: linear-gradient(
-    268deg,
-    rgb(255, 168, 169) 10%,
-    rgb(252, 255, 0) 100%
-  );
+  background: #c690d2;
 }
 
 @media (max-width: 1229px) {
