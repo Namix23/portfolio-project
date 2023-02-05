@@ -7,4 +7,5 @@ let database = [
   },
 ];
 
-let;
+//Select Elements
+let searchResults = document.querySelector();
