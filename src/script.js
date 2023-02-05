@@ -8,4 +8,5 @@ let database = [
 ];
 
 //Select Elements
-let searchResults = document.querySelector();
+let searchResults = document.querySelector(".search-results"),
+  searchInput = document.querySelector(".search-input");
