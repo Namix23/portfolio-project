@@ -6,3 +6,5 @@ let database = [
     img: "../images/weather app.png",
   },
 ];
+
+let;
